@@ -1,0 +1,70 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "base64",
+                "caption": "Base64",
+                "children":
+                [
+                    {
+                        "id": "decode",
+                        "caption": "Decode",
+                        "command": "base64_decode"
+                    },
+                    {
+                        "id": "encode",
+                        "caption": "Encode",
+                        "command": "base64_encode"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Base64",
+                        "children":
+                        [
+                            {
+                                "caption": "Readme",
+                                "command": "base64_readme"
+                            },
+                            {
+                                "caption": "Changelog",
+                                "command": "base64_changelog"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/Base64/settings/base64.sublime-settings",
+                                    "default": "{\n\t$0\n}\n"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/Base64/input-maps/Default (${platform}).sublime-keymap",
+                                    "default": "[\n\t$0\n]\n"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+{
+    "schema_version": "3.0.0",
+    "packages": [
+        {
+            "name": "Base64",
+            "details": "https://github.com/dmitrievav/sublime_base64",
+            "description": "Base64 plugin for Sublime Text 3.",
+            "author": "A. Dmitriev",
+            "homepage": "https://github.com/dmitrievav/sublime_base64",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "tags": true
+                }
+            ]
+        }
+    ]
+}

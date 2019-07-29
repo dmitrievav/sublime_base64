@@ -1,0 +1,17 @@
+[
+    {
+        "id": "base64",
+        "caption": "Base64",
+        "children":
+        [
+            {
+                "caption": "Decode",
+                "command": "base64_decode"
+            },
+            {
+                "caption": "Encode",
+                "command": "base64_encode"
+            }
+        ]
+    }
+]

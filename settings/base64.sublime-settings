@@ -1,0 +1,7 @@
+{
+//  Specifies the full path if `base64` is not in your `$PATH` (default: "base64")
+    "base64.command": "base64",
+
+//  Do not show Readme when plug-in loaded (default: false)
+    "base64.readme_shown": false
+}

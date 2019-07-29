@@ -1,0 +1,18 @@
+[
+    {
+        "keys":
+        [
+            "super+b",
+            "super+e"
+        ],
+        "command": "base64_encode"
+    },
+    {
+        "keys":
+        [
+            "super+b",
+            "super+d"
+        ],
+        "command": "base64_decode"
+    }
+]

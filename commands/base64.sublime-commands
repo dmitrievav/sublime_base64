@@ -1,0 +1,36 @@
+[
+    {
+        "caption": "Base64: Decode",
+        "command": "base64_decode"
+    },
+    {
+        "caption": "Base64: Encode",
+        "command": "base64_encode"
+    },
+    {
+        "caption": "Base64: Readme",
+        "command": "base64_readme"
+    },
+    {
+        "caption": "Base64: Changelog",
+        "command": "base64_changelog"
+    },
+    {
+        "caption": "Preferences: Base64: Settings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/Base64/settings/base64.sublime-settings",
+            "default": "{\n\t$0\n}\n"
+        }
+    },
+    {
+        "caption": "Preferences: Base64: Key Bindings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/Base64/input-maps/Default (${platform}).sublime-keymap",
+            "default": "[\n\t$0\n]\n"
+        }
+    }
+]
